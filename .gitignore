@@ -1,0 +1,25 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore OS generated files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# Ignore compiled Java files and output folders
+out/
+bin/
+build/
+*.class
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Java dependencies that may be cached locally
+*.jar
+*.war
+*.ear
+
+# Ignore SQLite database file (if you don’t want it in the repository)
+tasks.db
